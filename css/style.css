@@ -1,0 +1,31 @@
+html {
+  box-sizing: border-box; }
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit; }
+
+body {
+  background: #fff;
+  color: #2b2831;
+  margin: 0; }
+
+.display {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 2em;
+  display: flex;
+  margin: 0 auto;
+  height: 100vh;
+  background: #fff;
+  overflow-x: hidden; }
+  .display__alert {
+    min-width: t-content;
+    margin: 2em;
+    text-align: center; }
+    .display__alert--author {
+      text-align: right; }
+    .display__alert--title {
+      text-align: center; }

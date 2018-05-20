@@ -1,0 +1,9 @@
+//Functions
+//Set text color based on how dark the background is
+@function set-text-color($bg-color) {
+  @if (lightness($bg-color) > 50) {
+    @return rgba(0, 0, 0, 0.5);
+  } @else {
+    @return rgba(255, 255, 255, 0.8);
+  }
+}
